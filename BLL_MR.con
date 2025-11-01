@@ -13,10 +13,10 @@ icmp-auto-reply = true
 always-reject-url-rewrite = false
 private-ip-answer = true
 dns-direct-fallback-proxy = true
-update-url = https://cf.buliang0.cf/shadowrocket-rules/nodnsleak-pk.ini
+update-url = https://raw.githubusercontent.com/LGYT-KTPD/shadowrocket/refs/heads/main/BLL_MR.con
 
 [Rule]
-IP-CIDR,192.168.1.0/24,WIREGUARD路由器,no-resolve
+IP-CIDR,192.168.1.0/24,wireguard路由器,no-resolve
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,DIRECT
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,DIRECT
